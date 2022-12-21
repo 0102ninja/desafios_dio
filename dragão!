@@ -1,0 +1,12 @@
+A = int(input())
+
+for i in range (A):
+    A = int(input())
+
+    for i in range(0,i<A):  
+        i = A
+        if i>8000:
+         print("Mais de 8000!")
+        elif i<=8000:
+            print("Inseto!")
+        
